@@ -9,7 +9,8 @@
 # @license      GNU GPL 3
 #
 # @BRIEF        This seems to be the ideal settings for the MacBook M1, the 
-#               CalDigit TS3+ Dock and the Samsung CRG9 Widescreen monitor.
+#               CalDigit TS3+ Dock and the Samsung CRG9 Widescreen monitor
+#               to prevent permanent wakeup of the monitor and the dock.
 
 sudo pmset -a hibernatemode 0
 sudo pmset -a powernap 0
