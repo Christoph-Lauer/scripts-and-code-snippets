@@ -8,8 +8,8 @@
 # @see          https://en.wikipedia.org/wiki/Pmset 
 # @license      GNU GPL 3
 #
-# @BRIEF        this seems to be the ideal settings for the macbook M1
-#               and the CalDigit TS3+ Dock and the Samsung CRG9 Widescreen monitor.
+# @BRIEF        This seems to be the ideal settings for the MacBook M1, the 
+#               CalDigit TS3+ Dock and the Samsung CRG9 Widescreen monitor.
 
 sudo pmset -a hibernatemode 0
 sudo pmset -a powernap 0
