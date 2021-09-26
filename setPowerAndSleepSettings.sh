@@ -12,9 +12,17 @@
 #               CalDigit TS3+ Dock and the Samsung CRG9 Widescreen monitor
 #               to prevent permanent wakeup of the monitor and the dock.
 
+sudo pmset -a standby 0
+sudo pmset -a autopoweroff 0 
 sudo pmset -a hibernatemode 0
 sudo pmset -a powernap 0
 sudo pmset -a ttyskeepawake 0
 sudo pmset -a tcpkeepalive 0
 sudo pmset -a womp 0
+sudo pmset -a ring 0
+sudo pmset -a proximitywake 0
+sudo pmset -a acwake 0
+sudo pmset -a sms 0
+sudo pmset -a networkoversleep 0
+
 pmset -g
